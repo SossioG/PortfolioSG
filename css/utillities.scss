@@ -1,0 +1,119 @@
+// ****************************
+// Variables
+// ****************************
+
+$bgcolor-under-footer: #0061a8;
+$bgcolor-main-footer: #2978b5;
+$bgcolor-container: #8ab6d6;
+// $bgcolor-separator: #d8e3e7;
+
+$color-hover: #51c4d3;
+
+$color-error: #cf0000;
+$color-success: #81b214;
+$color-default: #000;
+$color-white: #fff;
+
+// ****************************
+// Background
+// ****************************
+
+.under-footer {
+    background-color: $bgcolor-under-footer;
+}
+
+.main-footer {
+    background-color: $bgcolor-main-footer;
+}
+
+.containerMod {
+    background-color: $color-white;
+}
+
+// .separator {
+//     background-color: $bgcolor-separator;
+//     height: 300px;
+//     clip-path: polygon(0 0, 2150px 0, 2150px 70%, 0 100%);    
+// }
+
+// ****************************
+// Colors
+// ****************************
+
+a:hover {
+    color: $color-hover !important;
+    text-decoration: none !important;
+}
+
+.error{
+    background: #fff;
+    color: $color-error!important;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+
+.success {
+    color: $color-success;
+}
+
+.default {
+    color: $color-default !important;
+}
+
+.defaultWhite {
+    color: $color-white !important;
+}
+
+
+h1{
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 1rem;
+    color: $color-white !important;
+    padding: 20px 0 10px 20px;
+    text-align: center;
+    margin: 30px;
+}
+
+h2{
+    font-size: 1.8rem !important;
+    text-align: center !important;
+    color: $color-default !important;
+    padding: 20px 0 10px 20px;
+}
+
+h3 {
+    font-size: 1.3rem !important;
+    color: $color-white !important;
+    text-align: left !important;
+}
+
+h4 {
+    text-align: center !important;
+}
+
+h5 {
+    text-align: left !important;
+}
+
+h6 {
+    text-align: left !important;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    color: $color-default;
+    letter-spacing: 3px;
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 1rem;
+}
